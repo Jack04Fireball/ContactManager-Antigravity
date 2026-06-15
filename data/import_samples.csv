@@ -1,0 +1,4 @@
+Typ;Vorname;Nachname;Geburtsdatum;Mobiltelefonnummer;TelefonnummerGeschäft;EmailAdresse;IsActive;Anrede;Geschlecht;Titel;MitarbeiterNummer;Abteilung;AhvNummer;Wohnort;Nationalität;Adresse;Postleitzahl;Eintrittsdatum;Austrittsdatum;Beschäftigungsgrad;Rolle;Kaderstufe;Geschäftsadresse;Lehrjahre;AktuellesLehrjahr
+Kunde;Peter;Muster;1990-05-15;+41 79 111 22 33;;peter.muster@test.ch;aktiv;Herr;Männlich;Dr. rer. nat.;;;;;;;;;;;;;;;
+Mitarbeiter;Thomas;Müller;1982-08-10;+41 78 444 55 66;+41 44 222 33 44;t.mueller@firma.ch;aktiv;;;;M10003;IT Support;756.9999.8888.77;Zürich;Schweiz;Lagerstrasse 10;8004;2024-03-01;;80;System Administrator;1;Firma AG, Hauptstrasse 1, 8000 Zürich;;
+Lernender;Julia;Schmid;2008-01-20;+41 76 999 00 11;;j.schmid@firma.ch;aktiv;;;;M10004;HR;756.1111.2222.33;Bülach;Schweiz;Waldweg 2;8180;2025-08-01;;100;Lernende Kauffrau;0;Firma AG, Hauptstrasse 1, 8000 Zürich;3;1

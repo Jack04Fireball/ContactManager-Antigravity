@@ -1,0 +1,56 @@
+=========================================================
+Semesterprojekt: Contact Manager
+Modul: Programming Foundation II
+=========================================================
+
+---------------------------------------------------------
+Gruppenmitglieder:
+---------------------------------------------------------
+- Jeremiah Flammer
+
+---------------------------------------------------------
+Funktionsbeschreibung (Was funktioniert / Was nicht):
+---------------------------------------------------------
+Das Projekt ist vollständig umgesetzt und erfüllt alle funktionalen
+sowie optionalen Anforderungen ohne Einschränkungen.
+
+Was funktioniert:
+- Anmeldung (Login-Bildschirm beim Start der Applikation)
+- Dashboard-Ansicht mit nützlichen Kennzahlen (Anzahl Kunden, Mitarbeiter,
+  Auszubildende, Kontakte), einer Geburtstagsliste für die nächsten 30 Tage
+  sowie den letzten 5 Kundenkontakten.
+- Vollständiges CRUD (Erstellen, Lesen, Bearbeiten, Löschen) von Kunden
+  und Mitarbeitern (einschliesslich Lernenden).
+- Statusverwaltung (Aktivieren und Deaktivieren) für Kunden und Mitarbeiter.
+- Automatische Vergabe eindeutiger Personalnummern (Format: M10001, M10002...).
+- Schweizer AHV-Nummern-Validierung (Format: 756.XXXX.XXXX.XX) beim Erfassen/Editieren.
+- Kundenkontakte: Protokollieren von Notizen (Datum, Art, verantwortlicher
+  Mitarbeiter, Freitext) mit lückenloser Historie.
+- Mutationshistorie: Automatische Aufzeichnung von Änderungen an Kontaktdaten
+  (welches Feld, alter Wert, neuer Wert, Änderungszeitpunkt und Benutzer).
+- CSV-Import: Komfortable Schnittstelle zum Importieren von Kunden, 
+  Mitarbeitern und Lernenden mit Tabellenvorschau und Fehler-Log.
+- Persistenz: Automatisches Laden beim Start und Speichern bei jeder
+  Änderung in einer strukturierten JSON-Datei (polymorphe Serialisierung).
+- Hohe Stabilität und Benutzerfreundlichkeit durch strukturierte Eingabe-Tabs
+  und robuste Validierungsprüfungen.
+
+Was nicht funktioniert:
+- Keine Fehler bekannt. Die Applikation ist voll funktionsfähig.
+
+---------------------------------------------------------
+Zusatzinformationen & Login-Daten:
+---------------------------------------------------------
+Das Anmeldefenster unterstützt folgende Konten:
+
+1. Administrator-Konto:
+   - Benutzername: admin
+   - Passwort:     admin
+
+2. Standard-Konto:
+   - Benutzername: user
+   - Passwort:     user
+
+Die Kontaktdaten werden in der Datei 'contacts.json' im gleichen
+Verzeichnis wie die ausführbare Datei gespeichert.
+Ein Beispiel für den CSV-Import befindet sich im Ordner 'data/import_samples.csv'.

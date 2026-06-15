@@ -1,0 +1,17 @@
+# Build folders
+[Db]in/
+[Oo]bj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# IDE-specific folders
+.vs/
+.idea/
+.vscode/
+
+# Local data files
+contacts.json
